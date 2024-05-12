@@ -1,0 +1,114 @@
+/* Import Google font - Poppins */
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+  }
+  .main{
+
+
+   
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    background:white;
+
+    
+     
+  
+  }
+  .container {
+    position: relative;
+    margin:10px  380px ;
+    max-width: 40rem;
+    width: 30rem;
+    padding: 25px;
+    border:3px solid #8a1253;
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+
+   
+  }
+  .container header {
+    font-size: 1.5rem;
+    color: #333;
+    font-weight: 500;
+    text-align: center;
+  } 
+  .container .form {
+    margin-top: 30px;
+  }
+  .form .input-box {
+    width: 25rem;
+    margin-bottom:5px;
+    display: list-item;
+    border-radius: 5px;
+  }
+  label {
+    color:rgb(255, 255, 255);
+    margin-top: 10px;
+  }
+  .form :where(.input-box input) {
+    position: relative;
+    height: 50px;
+    width: 10rem;
+    outline: none;
+    font-size: 1rem;
+    color: #707070;
+    margin-top: 8px;
+    border: 1px solid #ddd;
+    border-radius: 16px;
+    padding: 0 15px;
+  }
+  .input-box input:focus {
+    box-shadow: 0 1px 0 gray;
+  }
+  
+  .input-box{
+    padding-left:3px;
+  }
+  .address :where(input, .select-box) {
+    margin-top: 15px;
+  }
+  .form .button {
+    height: 45px;
+    width: 100px;
+    /* color: #009dc4; */
+    color:#8a1253;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-left:10rem;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    background:white;
+    
+  }
+  .form.button:hover {
+    /* background: #009dc4; */
+    background: #8a1253;
+  }
+  
+  @media screen and (max-width: 500rem) {
+    .form  {
+      flex-wrap: wrap;
+    }
+  }
+  .btn{
+    margin-right: 5px;
+  }
+
+
+
+
+
+
+
+
+

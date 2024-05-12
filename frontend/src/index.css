@@ -1,0 +1,20 @@
+.nav-link{
+    color:white;
+}
+
+.nav-link:hover{
+    border:1px solid black;
+    border-radius: 10px;
+    transition-delay: 5s;
+}
+.navbar-toggler{
+    background-color:white;
+}
+.dropdown-menu{
+    background-color:teal;
+}
+/* .active{
+    color: yellow;
+    border:1px solid white;
+    border-radius: 10px;
+} */
